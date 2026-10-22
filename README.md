@@ -1,4 +1,4 @@
-# Leveraging Poster and Trailer-Audio Embeddings for Cold-Start Movie Recommendation
+# Multimodal Cold-Start Movie Recommender
 
 A multimodal movie recommendation system that combines collaborative filtering with visual and audio representations to address the cold-start problem for movies with little or no historical rating data.
 
