@@ -299,7 +299,13 @@ Leveraging-Poster-and-Trailer-Audio-Embeddings-for-Cold-Start-Movie-Recommendati
 │   ├── single_prediction_known_movie.json
 │   └── top10_recommendations_user1.csv
 │
-├── app.py                                      # Streamlit UI
+├── app.py                                      # Streamlit UI entrypoint
+├── ui/                                         # Modular Streamlit UI pages & styling
+│   ├── __init__.py
+│   ├── styles.py                               # Custom CSS styling
+│   ├── recommendations.py                      # Recommendations page
+│   ├── cold_start.py                           # Cold-start prediction page
+│   └── about.py                                # About Model page
 ├── recommender.py                              # Reusable MovieRecommender inference class
 ├── fix_keras_models.py                         # Keras Embedding quantization_config compatibility patcher
 ├── requirements.txt
